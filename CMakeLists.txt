@@ -30,8 +30,8 @@ if (WIN32)
     # Ensure MinGW is used (for Windows compatibility)
     if (CMAKE_CXX_COMPILER_ID STREQUAL "GNU")
         #you can find where are your gcc and g++ compilers by using "where gcc" or "where g++" in a powershell
-        set(CMAKE_C_COMPILER "C:\\ProgramData\\mingw64\\mingw64\\bin\\gcc.exe")
-        set(CMAKE_CXX_COMPILER "C:\\ProgramData\\mingw64\\mingw64\\bin\\g++.exe")    
+        set(CMAKE_C_COMPILER "C:\\mingw64\\mingw64\\bin\\gcc.exe")
+        set(CMAKE_CXX_COMPILER "C:\\mingw64\\mingw64\\bin\\g++.exe")    
     endif()
 
     # Set GLFW static library for Windows (Precompiled for MinGW)
