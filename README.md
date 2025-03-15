@@ -24,9 +24,10 @@ Clone the repository
 git clone https://github.com/Engel-167/OpenGL-Template-with-Clion-VScode-and-CMake.git
 ```
 Then open it with VScode or CLion  
-<p>
-  <img src=".images/VScode-logo.svg" alt="VScode Logo" width="150" style="display: inline-block; margin-right: 50px;"/>
-  <img src=".images/Clion-logo.svg" alt="CLion Logo" width="150" style="display: inline-block;"/>
+<p align="center">
+  <img src=".images/VScode-logo.svg" alt="VScode Logo" width="150"/>
+  <img src=".images/Empty.png" width="60" alt=""/> <!-- Spacer -->
+  <img src=".images/Clion-logo.svg" alt="CLion Logo" width="150"/>
 </p>
 
 
