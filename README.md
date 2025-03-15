@@ -24,10 +24,11 @@ Clone the repository
 git clone https://github.com/Engel-167/OpenGL-Template-with-Clion-VScode-and-CMake.git
 ```
 Then open it with VScode or CLion  
-<p align="center">
-  <img src=".images/VScode-logo.svg" alt="VScode Logo" width="150" style="margin-right: 60px;"/>
-  <img src=".images/Clion-logo.svg" alt="CLion Logo" width="150"/>
+<p>
+  <img src=".images/VScode-logo.svg" alt="VScode Logo" width="150" style="display: inline-block; margin-right: 50px;"/>
+  <img src=".images/Clion-logo.svg" alt="CLion Logo" width="150" style="display: inline-block;"/>
 </p>
+
 
 But if you are on windows you will have to specify your gcc and g++ compilers path inside the `CMakeLists.txt` File.  
 
@@ -38,11 +39,13 @@ And select the `clion-debug` preset
 
 **Visual Studio Code**
 
-![Preset-selection](.images/preset-selection.PNG)
+![Preset-selection](.images/Preset-selection.png)
 
 **JetBrains CLion**  
-
-![Preset-profile-selection]()
+By default there will be a profile that is different from the clion-debug preset  
+![Preset-profile-selection-step1](.images/Preset-profile-step1.png)
+Disable it and enable the clion-debug (preset) instead, also move it to the top  
+![Preset-profile-selection-step2](.images/Preset-profile-step2.png)
 
 Finally, run your code.  
 
@@ -54,8 +57,11 @@ Finally, run your code.
 
 **JetBrains CLion**  
 
+![Running-menu-Clion](.images/Running-menu-CLion.png)
+
 ![Running-CLion](.images/Runnnig-code-CLion.png)  
 
 ### NOTE:
 
-You can change the Name of your project by modifying the `PROJECT_NAME` parameter in the `CMakeLists.txt` file
+You can change the Name of your project by modifying the `PROJECT_NAME` parameter in the `CMakeLists.txt` file.  
+![Changing-Project-Name](.images/Change-project-name.png)
