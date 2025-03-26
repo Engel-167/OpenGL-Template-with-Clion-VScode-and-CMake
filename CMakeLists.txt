@@ -51,6 +51,6 @@ elseif (UNIX)
     find_package(GLEW REQUIRED)
 
     # Link against OpenGL, GLFW, and GLUT
-    target_link_libraries(${PROJECT_NAME} PRIVATE OpenGL::GL glfw GLU glut glew)
+    target_link_libraries(${PROJECT_NAME} PRIVATE OpenGL::GL glfw GLU glut GLEW)
 endif()
 
