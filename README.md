@@ -29,6 +29,7 @@ Then open it with VScode or CLion
   <img src=".images/Empty.png" width="60" alt=""/> <!-- Spacer -->
   <img src=".images/Clion-logo.svg" alt="CLion Logo" width="150" style="display: inline-block;"/>
 </p>
+<<<<<<< Updated upstream
 
 
 But if you are on windows you will have to specify your gcc and g++ compilers path inside the `CMakeLists.txt` File.  
@@ -37,6 +38,9 @@ But if you are on windows you will have to specify your gcc and g++ compilers pa
 
 ![Compilers-path-screenshot](.images/compilers-path.png)  
 And select the `clion-debug` preset  
+=======
+ And select the `clion-debug` preset  
+>>>>>>> Stashed changes
 
 **Visual Studio Code**
 
